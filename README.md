@@ -1,1 +1,1 @@
-# Guess-a-number
+# a simple guess-a-number game
