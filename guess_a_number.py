@@ -1,10 +1,12 @@
 import random
 
-r = random.randint(1, 100)
+start = int(input('Please enter the start number: '))
+end = int(input('Please enter the end number: '))
+r = random.randint(start, end)
 count = 0
 while True:
-    ask = int(input('Guess a number: '))
     count = count + 1
+    ask = int(input('Guess a number: '))
     if ask < r:
         print('Guess bigger.')
     elif ask > r:
